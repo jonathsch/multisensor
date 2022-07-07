@@ -24,10 +24,7 @@ pip install -r requirements.txt
 
 ## Prepare Data
 
-We use a subset of the [Transfuser](https://github.com/autonomousvision/transfuser) dataset for training all of our models. You can find this dataset at
-`/storage/remote/atcremers51/w0013/pseudo_lidar/pseudolidar/data/training_1_2_3_4_5_6`. This dataset already contains the preprocessed pseudo-LiDAR data.
-
-If you want to download the dataset yourself, follow the instructions on the respective GitHub page liked above.
+We use a subset of the [Transfuser](https://github.com/autonomousvision/transfuser) dataset for training all of our models. To download the dataset, follow the instructions on the respective GitHub page liked above.
 
 To generate pseudo-LiDAR data, run the following script for every town you want to use:
 ```bash
