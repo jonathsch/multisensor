@@ -6,16 +6,11 @@ Code for training a multimodal model robust to sensor failure. The model is trai
 
 This implementation uses Python 3.7, CARLA 0.9.10, and PyTorch 1.10 with CUDA 11.3. We recommend using conda to manage the environment.
 
-1. Set up the environment by running:
+Set up the environment by running:
 ```bash
 conda create -n pseudolidar python=3.7
 conda activate pseudolidar
 pip install -r requirements.txt
-```
-
-2. Copy necessary CARLA files by running:
-```bash
-./setup.sh
 ```
 
 ## Demo
